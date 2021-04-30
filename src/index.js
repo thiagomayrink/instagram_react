@@ -5,11 +5,11 @@ import Conteudo from "./components/Conteudo"
 
 function App() {
     return (
-    <>
-        <BarraNavegacao />
-        <Conteudo />
-        <FundoMobile />
-    </>
+        <>
+            <BarraNavegacao />
+            <Conteudo />
+            <FundoMobile />
+        </>
     );
 }
 ReactDOM.render(<App />, document.querySelector(".root"));

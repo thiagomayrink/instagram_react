@@ -1,7 +1,8 @@
 import Sugestoes from "./Sugestoes"
 import Usuario from "./Usuario"
+import Links from "./Links"
 
-export default function BarraLateral(props) {
+export default function BarraLateral() {
     return(
         <div className="sidebar">
             <Usuario userId="catanacomics" userName="Catana"/>
@@ -11,20 +12,6 @@ export default function BarraLateral(props) {
         </div>
     );
 }
-const linksLista = ["Sobre" , "Ajuda" , "Imprensa" , "API" , "Carreiras" , "Privacidade" , "Termos" , "Localizações" , "Contas mais relevantes" , "Hashtags"]
-function Links(props) {
-    return (
-        <div className="links">
-            {linksLista.map((textoLink)=>(
-                <a href="#">
-                    {textoLink}
-                </a>
-            ))}
-            <a href="#">Idioma</a>
-        </div>
-    );
-}
-
 function Copyright(props) {
     return (
     <div className="copyright">
@@ -32,6 +19,3 @@ function Copyright(props) {
     </div>
 );
 }
-/*
-Sobre • Ajuda • Imprensa • API • Carreiras • Privacidade • Termos • Localizações • Contas mais relevantes • Hashtags • Idioma
-*/
