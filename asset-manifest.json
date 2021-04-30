@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/thiagomayrink/instagram_react/static/js/main.d1f55742.chunk.js",
+    "main.js.map": "/thiagomayrink/instagram_react/static/js/main.d1f55742.chunk.js.map",
+    "runtime-main.js": "/thiagomayrink/instagram_react/static/js/runtime-main.f1382f0e.js",
+    "runtime-main.js.map": "/thiagomayrink/instagram_react/static/js/runtime-main.f1382f0e.js.map",
+    "static/js/2.a47a687a.chunk.js": "/thiagomayrink/instagram_react/static/js/2.a47a687a.chunk.js",
+    "static/js/2.a47a687a.chunk.js.map": "/thiagomayrink/instagram_react/static/js/2.a47a687a.chunk.js.map",
+    "index.html": "/thiagomayrink/instagram_react/index.html",
+    "static/js/2.a47a687a.chunk.js.LICENSE.txt": "/thiagomayrink/instagram_react/static/js/2.a47a687a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f1382f0e.js",
+    "static/js/2.a47a687a.chunk.js",
+    "static/js/main.d1f55742.chunk.js"
+  ]
+}
